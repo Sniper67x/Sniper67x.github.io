@@ -1175,40 +1175,40 @@ section.lazy-placeholder:after {
   padding-bottom: 60px;
   background-color: #232323;
 }
-.cid-rY5L8Tp5mx {
-  padding-top: 120px;
-  padding-bottom: 120px;
-  background-color: #232323;
+.cid-rY5OztMv0t {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #ffffff;
 }
-.cid-rY5L8Tp5mx .socicon-bg-facebook {
+.cid-rY5OztMv0t .socicon-bg-facebook {
   background: #3e5b98;
   color: #ffffff;
 }
-.cid-rY5L8Tp5mx .socicon-bg-twitter {
+.cid-rY5OztMv0t .socicon-bg-twitter {
   background: #4da7de;
   color: #ffffff;
 }
-.cid-rY5L8Tp5mx .socicon-bg-googleplus {
+.cid-rY5OztMv0t .socicon-bg-googleplus {
   background: #dd4b39;
   color: #ffffff;
 }
-.cid-rY5L8Tp5mx .socicon-bg-vkontakte {
+.cid-rY5OztMv0t .socicon-bg-vkontakte {
   background: #5a7fa6;
   color: #ffffff;
 }
-.cid-rY5L8Tp5mx .socicon-bg-odnoklassniki {
+.cid-rY5OztMv0t .socicon-bg-odnoklassniki {
   background: #f48420;
   color: #ffffff;
 }
-.cid-rY5L8Tp5mx .socicon-bg-pinterest {
+.cid-rY5OztMv0t .socicon-bg-pinterest {
   background: #c92619;
   color: #ffffff;
 }
-.cid-rY5L8Tp5mx .socicon-bg-mail {
+.cid-rY5OztMv0t .socicon-bg-mail {
   background: #134785;
   color: #ffffff;
 }
-.cid-rY5L8Tp5mx .btn-social {
+.cid-rY5OztMv0t .btn-social {
   font-size: 20px;
   border-radius: 50%;
   padding: 0;
@@ -1220,25 +1220,22 @@ section.lazy-placeholder:after {
   cursor: pointer;
   border: none !important;
 }
-.cid-rY5L8Tp5mx .btn-social i {
+.cid-rY5OztMv0t .btn-social i {
   top: 0;
   line-height: 44px;
   width: 44px;
 }
-.cid-rY5L8Tp5mx .btn-social + .btn {
+.cid-rY5OztMv0t .btn-social + .btn {
   margin-left: .1rem;
 }
-.cid-rY5L8Tp5mx [class^="socicon-"]:before,
-.cid-rY5L8Tp5mx [class*=" socicon-"]:before {
+.cid-rY5OztMv0t [class^="socicon-"]:before,
+.cid-rY5OztMv0t [class*=" socicon-"]:before {
   line-height: 44px;
 }
 @media (max-width: 767px) {
-  .cid-rY5L8Tp5mx .btn {
+  .cid-rY5OztMv0t .btn {
     font-size: 20px !important;
   }
-}
-.cid-rY5L8Tp5mx .mbr-section-title {
-  color: #ffffff;
 }
 .cid-qTkA127IK8 {
   background-color: #232323;
