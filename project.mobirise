@@ -73,7 +73,7 @@
     "page1.html": {
       "settings": {
         "meta_descr": "A guided discussing how to create Addon DLC Packs For GTA V",
-        "title": "Creating Addon DLC Packs For GTA V",
+        "title": "Simple Modding - Creating Addon DLC Packs For GTA V",
         "order": 2
       },
       "components": [
@@ -122,8 +122,8 @@
     },
     "page2.html": {
       "settings": {
-        "meta_descr": "Web Page Creator Description",
-        "title": "Addon DLC article",
+        "meta_descr": "Learn how to make addon DLC Packs for GTA 5. Modding Tutorial",
+        "title": "Simple Modding - Addon DLC Guide",
         "order": 3
       },
       "components": [
@@ -1356,8 +1356,8 @@
     },
     "page3.html": {
       "settings": {
-        "meta_descr": "Website Creator Description",
-        "title": "guides",
+        "meta_descr": "View All Of Our Guides",
+        "title": "Simple Modding - Guides",
         "order": 1
       },
       "components": [
