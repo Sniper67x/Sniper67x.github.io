@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Simple Modding",
-    "currentPage": "page2.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -1296,7 +1296,7 @@
         },
         {
           "_params": {
-            "HTMLCode": "<link rel=\"stylesheet\" href=\"assets/theme/css/style.css\">",
+            "HTMLCode": "  <link rel=\"stylesheet\" href=\"https://raw.githubusercontent.com/Sniper67x/Sniper67x.github.io/master/assets/web/assets/mobirise-icons/mobirise-icons.css\">\n  <link rel=\"stylesheet\" href=\"https://raw.githubusercontent.com/Sniper67x/Sniper67x.github.io/master/assets/bootstrap/css/bootstrap.min.css\">\n  <link rel=\"stylesheet\" href=\"https://raw.githubusercontent.com/Sniper67x/Sniper67x.github.io/master/assets/bootstrap/css/bootstrap-grid.min.css\">\n  <link rel=\"stylesheet\" href=\"https://raw.githubusercontent.com/Sniper67x/Sniper67x.github.io/master/assets/bootstrap/css/bootstrap-reboot.min.css\">\n  <link rel=\"stylesheet\" href=\"https://raw.githubusercontent.com/Sniper67x/Sniper67x.github.io/master/assets/facebook-plugin/style.css\">\n  <link rel=\"stylesheet\" href=\"https://raw.githubusercontent.com/Sniper67x/Sniper67x.github.io/master/assets/socicon/css/styles.css\">\n  <link rel=\"stylesheet\" href=\"https://raw.githubusercontent.com/Sniper67x/Sniper67x.github.io/master/assets/web/assets/gdpr-plugin/gdpr-styles.css\">\n  <link rel=\"stylesheet\" href=\"https://raw.githubusercontent.com/Sniper67x/Sniper67x.github.io/master/assets/tether/tether.min.css\">\n  <link rel=\"stylesheet\" href=\"https://raw.githubusercontent.com/Sniper67x/Sniper67x.github.io/master/assets/dropdown/css/style.css\">\n  <link rel=\"stylesheet\" href=\"https://raw.githubusercontent.com/Sniper67x/Sniper67x.github.io/master/assets/theme/css/style.css\">\n  <link rel=\"preload\" as=\"style\" href=\"https://raw.githubusercontent.com/Sniper67x/Sniper67x.github.io/master/assets/mobirise/css/mbr-additional.css\"><link rel=\"stylesheet\" href=\"https://raw.githubusercontent.com/Sniper67x/Sniper67x.github.io/master/assets/mobirise/css/mbr-additional.css\" type=\"text/css\">",
             "hideOnPublish": false,
             "paddingTop": 2,
             "paddingBottom": 2,
@@ -1309,7 +1309,7 @@
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "HTMLCode": "<link rel=\"stylesheet\" href=\"assets/theme/css/style.css\">",
+          "HTMLCode": "  <link rel=\"stylesheet\" href=\"https://raw.githubusercontent.com/Sniper67x/Sniper67x.github.io/master/assets/web/assets/mobirise-icons/mobirise-icons.css\">\n  <link rel=\"stylesheet\" href=\"https://raw.githubusercontent.com/Sniper67x/Sniper67x.github.io/master/assets/bootstrap/css/bootstrap.min.css\">\n  <link rel=\"stylesheet\" href=\"https://raw.githubusercontent.com/Sniper67x/Sniper67x.github.io/master/assets/bootstrap/css/bootstrap-grid.min.css\">\n  <link rel=\"stylesheet\" href=\"https://raw.githubusercontent.com/Sniper67x/Sniper67x.github.io/master/assets/bootstrap/css/bootstrap-reboot.min.css\">\n  <link rel=\"stylesheet\" href=\"https://raw.githubusercontent.com/Sniper67x/Sniper67x.github.io/master/assets/facebook-plugin/style.css\">\n  <link rel=\"stylesheet\" href=\"https://raw.githubusercontent.com/Sniper67x/Sniper67x.github.io/master/assets/socicon/css/styles.css\">\n  <link rel=\"stylesheet\" href=\"https://raw.githubusercontent.com/Sniper67x/Sniper67x.github.io/master/assets/web/assets/gdpr-plugin/gdpr-styles.css\">\n  <link rel=\"stylesheet\" href=\"https://raw.githubusercontent.com/Sniper67x/Sniper67x.github.io/master/assets/tether/tether.min.css\">\n  <link rel=\"stylesheet\" href=\"https://raw.githubusercontent.com/Sniper67x/Sniper67x.github.io/master/assets/dropdown/css/style.css\">\n  <link rel=\"stylesheet\" href=\"https://raw.githubusercontent.com/Sniper67x/Sniper67x.github.io/master/assets/theme/css/style.css\">\n  <link rel=\"preload\" as=\"style\" href=\"https://raw.githubusercontent.com/Sniper67x/Sniper67x.github.io/master/assets/mobirise/css/mbr-additional.css\"><link rel=\"stylesheet\" href=\"https://raw.githubusercontent.com/Sniper67x/Sniper67x.github.io/master/assets/mobirise/css/mbr-additional.css\" type=\"text/css\">",
           "alias": "witsec-custom-html",
           "_tags": [
             "Extension"
