@@ -49,13 +49,13 @@
       "customDialogSelector": false,
       "colorText": "#424a4d",
       "colorBg": "#eaeff1",
-      "colorButton": "",
+      "colorButton": "#149dcc",
       "colorLink": "#424a4d",
       "underlineLink": true,
       "opacity": "99",
       "opacityOverlay": "80",
-      "text": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.",
-      "textButton": "Agree"
+      "text": "Site is currently under construction. If you ever experience downtime, please wait. The site will be down at most 5 minutes",
+      "textButton": "Hide"
     },
     "gdpr": {
       "colorText": "#a7a7a7",
