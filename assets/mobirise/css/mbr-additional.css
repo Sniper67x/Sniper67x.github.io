@@ -1240,52 +1240,6 @@ section.lazy-placeholder:after {
 .cid-rY5OztMv0t .mbr-section-title {
   color: #ffffff;
 }
-.cid-rY7KEe9j5T {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  background-color: #232323;
-}
-.cid-rY7KEe9j5T [class^="socicon-"]:before,
-.cid-rY7KEe9j5T [class*=" socicon-"]:before {
-  line-height: 44px;
-}
-.cid-rY7KEe9j5T .btn-social {
-  font-size: 20px;
-  border-radius: 50%;
-  padding: 0;
-  width: 44px;
-  height: 44px;
-  line-height: 44px;
-  text-align: center;
-  position: relative;
-  color: #232323;
-  cursor: pointer;
-  border-color: #33ff85;
-}
-.cid-rY7KEe9j5T .btn-social i {
-  top: 0;
-  line-height: 44px;
-  width: 44px;
-}
-.cid-rY7KEe9j5T .btn-social:hover {
-  color: #fff;
-  background: #33ff85;
-}
-.cid-rY7KEe9j5T .btn-social:hover i.socicon {
-  color: #000000 !important;
-}
-.cid-rY7KEe9j5T .btn-social + .btn {
-  margin-left: .1rem;
-}
-@media (max-width: 767px) {
-  .cid-rY7KEe9j5T .btn {
-    font-size: 20px !important;
-  }
-}
-.cid-rY7KEe9j5T .btn-social,
-.cid-rY7KEe9j5T .mbr-section-title {
-  color: #ffffff;
-}
 .cid-rY5Xq1pr69 {
   padding-top: 60px;
   padding-bottom: 60px;
