@@ -41,7 +41,7 @@
       }
     ],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 29,
+    "uniqCompNum": 30,
     "versionPublish": "4.12.3",
     "imageResize": true,
     "screenshot": "screenshot.png",
@@ -1157,26 +1157,35 @@
         },
         {
           "_params": {
-            "HTMLCode": "<script src=\"https://apps.elfsight.com/p/platform.js\" defer></script>\n<div class=\"elfsight-app-e55e9d2a-4155-445c-9f97-a33ba60aa68b\"></div>",
-            "hideOnPublish": true,
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#232323",
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
+            "modalName": "updates",
+            "modalSize": "small",
+            "modalHeader": true,
+            "modalTitle": "Updates",
+            "modalBody": "Live updates have started, site changes will happen while you are on the site without even refreshing. This mean no more down time. YAY!",
+            "modalBodyHTML": false,
+            "modalFooter": false,
+            "modalCloseBtn": true,
+            "modalCloseText": "Close",
+            "modalLink": false,
+            "modalLinkUrl": "https://mobirise.com/",
+            "modalLinkText": "Visit Mobirise",
+            "modalLinkNewWindow": true,
+            "modalVerticalCenter": true,
+            "modalFade": true,
+            "modalAutoOpen": true,
+            "modalAutoOpenOnce": false,
+            "modalAutoOpenGDPR": true,
+            "modalAutoOpenDelay": 0
           },
-          "HTMLCode": "<script src=\"https://apps.elfsight.com/p/platform.js\" defer></script>\n<div class=\"elfsight-app-e55e9d2a-4155-445c-9f97-a33ba60aa68b\"></div>",
-          "alias": "witsec-custom-html",
+          "modalTest": "<div class=\"mbr-section-btn\">\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#updates\">Preview updates</a>\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#updates-howtouse\">How to use updates</a>\n</div>\n<div class=\"modal fade\" id=\"updates-howtouse\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"updates-howtouseLabel\" aria-hidden=\"true\">\n  <div class=\"modal-dialog\" role=\"document\" style=\"height:auto\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h5 class=\"modal-title\" id=\"updates-howtouseLabel\">How to use?</h5>\n        <a href=\"\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a>\n      </div>\n      <div class=\"modal-body\">\n        Using your new modal is very easy. Simply create a new link, then click the \"...\" tab and enter the following as custom URL:<br /><br />\n        <code>javascript:OpenModal('updates')</code>\n      </div>\n      <div class=\"modal-footer\">\n        <div class=\"mbr-section-btn\"><a href=\"#\" class=\"btn btn-secondary display-4\" data-dismiss=\"modal\">Close</a></div>\n      </div>\n    </div>\n  </div>\n</div>",
+          "modalBody": "Live updates have started, site changes will happen while you are on the site without even refreshing. This mean no more down time. YAY!",
+          "alias": "witsec-modal-window",
           "_tags": [
             "Extension"
           ],
-          "_name": "witsec-custom-html-block",
-          "_anchor": "witsec-custom-html-block-s"
+          "_name": "witsec-modal-window-block",
+          "_anchor": "witsec-modal-window-block-t",
+          "modalWindow": "<div class=\"modal fade\" id=\"updates\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"updatesLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog modal-sm modal-dialog-centered\" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title\" id=\"updatesLabel\">Updates</h5>  <a href=\"#\" class=\"no-anim close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body\" id=\"updates_body\">Live updates have started, site changes will happen while you are on the site without even refreshing. This mean no more down time. YAY!</div>    </div>  </div></div><script>document.addEventListener(\"DOMContentLoaded\", function() {  $(\"#updates\").on(\"hidden.bs.modal\", function () {    var html = $( \"#updates_body\" ).html();    $( \"#updates_body\" ).empty();    $( \"#updates_body\" ).append(html);  })});</script>"
         },
         {
           "alias": false,
