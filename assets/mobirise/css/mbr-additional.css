@@ -1175,40 +1175,16 @@ section.lazy-placeholder:after {
   padding-bottom: 60px;
   background-color: #232323;
 }
-.cid-rY2Ie9ggGW {
+.cid-rY5KkZpM9v {
   padding-top: 90px;
   padding-bottom: 90px;
   background-color: #232323;
 }
-.cid-rY2Ie9ggGW .socicon-bg-facebook {
-  background: #3e5b98;
-  color: #ffffff;
+.cid-rY5KkZpM9v [class^="socicon-"]:before,
+.cid-rY5KkZpM9v [class*=" socicon-"]:before {
+  line-height: 44px;
 }
-.cid-rY2Ie9ggGW .socicon-bg-twitter {
-  background: #4da7de;
-  color: #ffffff;
-}
-.cid-rY2Ie9ggGW .socicon-bg-googleplus {
-  background: #dd4b39;
-  color: #ffffff;
-}
-.cid-rY2Ie9ggGW .socicon-bg-vkontakte {
-  background: #5a7fa6;
-  color: #ffffff;
-}
-.cid-rY2Ie9ggGW .socicon-bg-odnoklassniki {
-  background: #f48420;
-  color: #ffffff;
-}
-.cid-rY2Ie9ggGW .socicon-bg-pinterest {
-  background: #c92619;
-  color: #ffffff;
-}
-.cid-rY2Ie9ggGW .socicon-bg-mail {
-  background: #134785;
-  color: #ffffff;
-}
-.cid-rY2Ie9ggGW .btn-social {
+.cid-rY5KkZpM9v .btn-social {
   font-size: 20px;
   border-radius: 50%;
   padding: 0;
@@ -1217,27 +1193,32 @@ section.lazy-placeholder:after {
   line-height: 44px;
   text-align: center;
   position: relative;
+  color: #232323;
   cursor: pointer;
-  border: none !important;
+  border-color: #33ff85;
 }
-.cid-rY2Ie9ggGW .btn-social i {
+.cid-rY5KkZpM9v .btn-social i {
   top: 0;
   line-height: 44px;
   width: 44px;
 }
-.cid-rY2Ie9ggGW .btn-social + .btn {
+.cid-rY5KkZpM9v .btn-social:hover {
+  color: #fff;
+  background: #33ff85;
+}
+.cid-rY5KkZpM9v .btn-social:hover i.socicon {
+  color: #000000 !important;
+}
+.cid-rY5KkZpM9v .btn-social + .btn {
   margin-left: .1rem;
 }
-.cid-rY2Ie9ggGW [class^="socicon-"]:before,
-.cid-rY2Ie9ggGW [class*=" socicon-"]:before {
-  line-height: 44px;
-}
 @media (max-width: 767px) {
-  .cid-rY2Ie9ggGW .btn {
+  .cid-rY5KkZpM9v .btn {
     font-size: 20px !important;
   }
 }
-.cid-rY2Ie9ggGW .mbr-section-title {
+.cid-rY5KkZpM9v .btn-social,
+.cid-rY5KkZpM9v .mbr-section-title {
   color: #ffffff;
 }
 .cid-qTkA127IK8 {
