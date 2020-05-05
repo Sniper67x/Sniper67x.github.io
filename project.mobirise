@@ -619,11 +619,11 @@
           "_name": "content8",
           "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#232323\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-secondary\" href=\"https://mega.nz/file/Fb41wR6T#Xo4R2V0BgEJkistGHsNzrNUiaQsCxOgEC6rZmMXIOz8\" data-app-placeholder=\"Type Text\" target=\"_blank\">Templates For Police Vehicles<br></a>\n                    <a class=\"btn btn-primary\" href=\"https://mega.nz/file/4OoXjBKI#2ddgDujH6ALTQTFIInYOtou-a4cXBIlWqRojBUyGBJE\" data-app-placeholder=\"Type Text\" target=\"_blank\">Templates For Regular Vehicles</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "rY4zUfWbs6",
+          "_anchor": "content8-q",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content8-q"
+          "_params": {}
         },
         {
           "alias": false,
