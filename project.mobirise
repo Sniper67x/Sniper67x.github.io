@@ -41,7 +41,7 @@
       }
     ],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 25,
+    "uniqCompNum": 27,
     "versionPublish": "4.12.3",
     "imageResize": true,
     "screenshot": "screenshot.png",
@@ -601,13 +601,29 @@
             }
           },
           "_name": "content11",
-          "_customHTML": "<section class=\"mbr-section article content11\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"checkbox\" title=\"Square Counters\" name=\"squareCounters\" condition=\"stylizedCounters\">\n        <input type=\"color\" title=\"Counter Color\" name=\"counterColor\" value=\"#149dcc\" condition=\"stylizedCounters\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#232323\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text counter-container col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                <ol>\n                    <li><b>Download <a href=\"https://notepad-plus-plus.org/downloads/\" target=\"_blank\">Notepad++</a>, <a href=\"https://mega.nz/file/FexUBaCC#0WJZlmXK7ImeSFuFidV_3BG4ixnYungpkuOnS7uLF-c\">Meta Templates</a>, And The <a href=\"https://mega.nz/file/1C40mIDZ#oWChZUxGl6WWQQtryRzbV1n2VOJPcBHUsNs_F5N97b0\" target=\"_blank\">DLC Pack Template</a>. You Will Also Need <a href=\"https://openiv.com/\" target=\"_blank\">OpenIV </a>And <a href=\"https://www.win-rar.com/start.html?&L=0\" target=\"_blank\">WinRar</a>.</b></li>\n                    <li><b>Follow The Video For Now, Written Guides Might Come Soon</b></li><li><b>Other Links Mentioned In The Video, <a href=\"https://forums.gta5-mods.com/topic/14011/reference-vehicle-sound-guide\" target=\"_blank\">Vehicle Sound Guide</a>&nbsp;And <a href=\"https://www.gta5-mods.com/\" target=\"_blank\">gta5-mods.com</a></b></li>\n                </ol>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section article content11\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"checkbox\" title=\"Square Counters\" name=\"squareCounters\" condition=\"stylizedCounters\">\n        <input type=\"color\" title=\"Counter Color\" name=\"counterColor\" value=\"#149dcc\" condition=\"stylizedCounters\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#232323\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text counter-container col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                <ol>\n                    <li><b>Download <a href=\"https://notepad-plus-plus.org/downloads/\" target=\"_blank\">Notepad++</a>&nbsp;And The <a href=\"https://mega.nz/file/1C40mIDZ#oWChZUxGl6WWQQtryRzbV1n2VOJPcBHUsNs_F5N97b0\" target=\"_blank\">DLC Pack Template</a>. You Will Also Need <a href=\"https://openiv.com/\" target=\"_blank\">OpenIV </a>And <a href=\"https://www.win-rar.com/start.html?&L=0\" target=\"_blank\">WinRar</a>.</b></li>\n                    <li><b>Follow The Video For Now, Written Guides Might Come Soon</b></li><li><b>Other Links Mentioned In The Video, <a href=\"https://forums.gta5-mods.com/topic/14011/reference-vehicle-sound-guide\" target=\"_blank\">Vehicle Sound Guide</a>&nbsp;And <a href=\"https://www.gta5-mods.com/\" target=\"_blank\">gta5-mods.com</a></b></li>\n                </ol>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "rY2yHfyxzH",
           "_anchor": "content11-e",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor"
+          },
+          "_name": "content8",
+          "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#232323\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-secondary\" href=\"https://mega.nz/file/Fb41wR6T#Xo4R2V0BgEJkistGHsNzrNUiaQsCxOgEC6rZmMXIOz8\" data-app-placeholder=\"Type Text\" target=\"_blank\">Templates For Police Vehicles<br></a>\n                    <a class=\"btn btn-primary\" href=\"https://mega.nz/file/4OoXjBKI#2ddgDujH6ALTQTFIInYOtou-a4cXBIlWqRojBUyGBJE\" data-app-placeholder=\"Type Text\" target=\"_blank\">Templates For Regular Vehicles</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rY4zUfWbs6",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content8-q"
         },
         {
           "alias": false,
