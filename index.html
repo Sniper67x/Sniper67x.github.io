@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html  >
 <head>
-  <!-- Site made with Mobirise Website Builder v4.12.3, https://mobirise.com -->
+  
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Mobirise v4.12.3, mobirise.com">
+  
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
   <link rel="shortcut icon" href="assets/images/pfp-128x128.png" type="image/x-icon">
   <meta name="description" content="Our goal is to allow everyone to create and work on mods with-out past knowledge.">
@@ -27,6 +27,10 @@
   
 </head>
 <body>
+
+<section id='top-1'></section>
+
+
   <section class="menu cid-qTkzRZLJNu" once="menu" id="menu1-0">
 
     
@@ -44,7 +48,7 @@
             <div class="navbar-brand">
                 <span class="navbar-logo">
                     <a href="index.html#header2-1">
-                         <img src="assets/images/banner-big-614x614.png" alt="Mobirise" title="" style="height: 3.8rem;">
+                         <img src="assets/images/banner-big-614x614.png" alt="" title="" style="height: 3.8rem;">
                     </a>
                 </span>
                 
@@ -59,7 +63,7 @@
     </nav>
 </section>
 
-<section class="engine"><a href="https://mobirise.info/u">bootstrap website templates</a></section><section class="cid-qTkA127IK8 mbr-fullscreen" id="header2-1">
+<section class="cid-qTkA127IK8 mbr-fullscreen" id="header2-1">
 
     
 
@@ -80,7 +84,70 @@
     
 </section>
 
+<section class="mbr-section" id="witsec-modal-window-block-t" data-rv-view="5">
 
+	<style>
+	/* Let's not animate the contents of modal windows */
+	.no-anim {
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+	</style>
+
+	
+	
+	<div><div class="modal fade" id="updates" tabindex="-1" role="dialog" aria-labelledby="updatesLabel" aria-hidden="true">  <div class="modal-dialog modal-lg modal-dialog-centered" style="height:auto" role="document">    <div class="modal-content"><div class="modal-header">  <h5 class="no-anim modal-title" id="updatesLabel">Updates</h5>  <a href="#" class="no-anim close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a></div><div class="modal-body" id="updates_body">If you use chrome and the website appears broken, don't worry we are working to fix the problem. Have a great day!!</div><div class="modal-footer"><div class="mbr-section-btn"><a href="#" class="no-anim btn btn-secondary display-4" data-dismiss="modal">Close</a></div></div>    </div>  </div></div><script>document.addEventListener("DOMContentLoaded", function() {  $("#updates").on("hidden.bs.modal", function () {    var html = $( "#updates_body" ).html();    $( "#updates_body" ).empty();    $( "#updates_body" ).append(html);  })});</script></div>
+
+	<script>
+	if (typeof OpenModal === 'undefined') {
+		OpenModal = function(modalName) {
+			if ($('#' + modalName).length)
+				$('#' + modalName).modal('show');
+			else
+				alert("Sorry, but there is no modal for " + modalName);
+		}
+	}
+
+	function modalSetCookie(cname, cvalue, exdays) {
+		var d = new Date();
+		d.setTime(d.getTime() + (exdays*24*60*60*1000));
+		var expires = "expires="+ d.toUTCString();
+		document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+	}
+
+	function modalGetCookie(cname) {
+		var name = cname + "=";
+		var decodedCookie = decodeURIComponent(document.cookie);
+		var ca = decodedCookie.split(';');
+		for(var i = 0; i <ca.length; i++) {
+			var c = ca[i];
+			while (c.charAt(0) == ' ') {
+				c = c.substring(1);
+			}
+			if (c.indexOf(name) == 0) {
+				return c.substring(name.length, c.length);
+			}
+		}
+		return "";
+	}
+	</script>
+
+</section><script>
+document.addEventListener("DOMContentLoaded", function() {
+  setTimeout( function() { OpenModal("updates"); } , 0);
+});
+</script>
+
+<section class="mbr-section mbr-section--no-padding" id="witsec-custom-html-block-13" custom-code="true" data-rv-view="37">
+ 
+ <div class="witsec-custom-html-container elements-content" style="padding-top:2rem; padding-bottom:2rem">
+    <div class="mbr-section__container block" style="width: 100%;"><link rel="stylesheet" href="assets/theme/css/style.css"></div>
+ </div>
+
+</section>
 
 <section class="mbr-section info1 cid-rY3ZogdIsH" id="info1-j">
 
@@ -111,7 +178,7 @@
             <div class="card p-3 col-12 col-md-6 col-lg-4">
                 <div class="card-wrapper">
                     <div class="card-img">
-                        <img src="assets/images/mbr-676x676.png" alt="Mobirise" title="">
+                        <img src="assets/images/mbr-676x676.png" alt="" title="">
                     </div>
                     <div class="card-box">
                         <h4 class="card-title mbr-fonts-style display-7">
@@ -127,7 +194,7 @@
             <div class="card p-3 col-12 col-md-6 col-lg-4">
                 <div class="card-wrapper">
                     <div class="card-img">
-                        <img src="assets/images/mbr-2-676x676.png" alt="Mobirise" title="">
+                        <img src="assets/images/mbr-2-676x676.png" alt="" title="">
                     </div>
                     <div class="card-box">
                         <h4 class="card-title mbr-fonts-style display-7">
@@ -143,7 +210,7 @@
             <div class="card p-3 col-12 col-md-6 col-lg-4">
                 <div class="card-wrapper">
                     <div class="card-img">
-                        <img src="assets/images/mbr-2-676x676.png" alt="Mobirise" title="">
+                        <img src="assets/images/mbr-2-676x676.png" alt="" title="">
                     </div>
                     <div class="card-box">
                         <h4 class="card-title mbr-fonts-style display-7">Comming Soon!</h4>
@@ -172,7 +239,7 @@
             <div class="col-12 col-md-3">
                 <div class="media-wrap">
                     <a href="#top">
-                        <img src="assets/images/pfp-800x800.png" alt="Mobirise" title="">
+                        <img src="assets/images/pfp-800x800.png" alt="" title="">
                     </a>
                 </div>
             </div>
@@ -191,6 +258,18 @@
         </div>
         
     </div>
+</section>
+
+<section class="mbr-section mbr-section--no-padding cid-rY7Jf7VNt9" id="witsec-html-block-11">
+
+
+
+
+
+<div class="container" style="text-align:center">
+	<img src="assets/images/edit.jpg" title="Use a Code Editor to edit the HTML and CSS of this block">
+</div>
+
 </section>
 
 
