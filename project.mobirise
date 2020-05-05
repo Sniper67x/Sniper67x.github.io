@@ -53,7 +53,7 @@
     "cookiesAlert": false,
     "witsec-white-label": true,
     "gdpr": false,
-    "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-165584933-1\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-165584933-1');\n</script>"
+    "google-analytics": "ga('set', 'userId', 'USER_ID'); // Set the user ID using signed-in user_id."
   },
   "pages": {
     "page1.html": {
