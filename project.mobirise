@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Simple Modding",
-    "currentPage": "page2.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -1241,14 +1241,14 @@
             "modalSize": "large",
             "modalHeader": true,
             "modalTitle": "Updates",
-            "modalBody": "If you use chrome and the website appears broken, don't worry we are working to fix the problem. Have a great day!! - From us at Simple Modding",
+            "modalBody": "Great news, our first guide is up, YAY!!",
             "modalBodyHTML": false,
             "modalFooter": true,
             "modalCloseBtn": true,
             "modalCloseText": "Close",
-            "modalLink": false,
-            "modalLinkUrl": "https://mobirise.com/",
-            "modalLinkText": "Visit Mobirise",
+            "modalLink": true,
+            "modalLinkUrl": "https://simplemodding.tk/page1.html",
+            "modalLinkText": "View It Here!!",
             "modalLinkNewWindow": true,
             "modalVerticalCenter": true,
             "modalFade": true,
@@ -1258,14 +1258,14 @@
             "modalAutoOpenDelay": 0
           },
           "modalTest": "<div class=\"mbr-section-btn\">\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#updates\">Preview updates</a>\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#updates-howtouse\">How to use updates</a>\n</div>\n<div class=\"modal fade\" id=\"updates-howtouse\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"updates-howtouseLabel\" aria-hidden=\"true\">\n  <div class=\"modal-dialog\" role=\"document\" style=\"height:auto\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h5 class=\"modal-title\" id=\"updates-howtouseLabel\">How to use?</h5>\n        <a href=\"\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a>\n      </div>\n      <div class=\"modal-body\">\n        Using your new modal is very easy. Simply create a new link, then click the \"...\" tab and enter the following as custom URL:<br /><br />\n        <code>javascript:OpenModal('updates')</code>\n      </div>\n      <div class=\"modal-footer\">\n        <div class=\"mbr-section-btn\"><a href=\"#\" class=\"btn btn-secondary display-4\" data-dismiss=\"modal\">Close</a></div>\n      </div>\n    </div>\n  </div>\n</div>",
-          "modalBody": "If you use chrome and the website appears broken, don't worry we are working to fix the problem. Have a great day!! - From us at Simple Modding",
+          "modalBody": "Great news, our first guide is up, YAY!!",
           "alias": "witsec-modal-window",
           "_tags": [
             "Extension"
           ],
           "_name": "witsec-modal-window-block",
           "_anchor": "witsec-modal-window-block-t",
-          "modalWindow": "<div class=\"modal fade\" id=\"updates\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"updatesLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog modal-lg modal-dialog-centered\" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title\" id=\"updatesLabel\">Updates</h5>  <a href=\"#\" class=\"no-anim close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body\" id=\"updates_body\">If you use chrome and the website appears broken, don't worry we are working to fix the problem. Have a great day!! - From us at Simple Modding</div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-dismiss=\"modal\">Close</a></div></div>    </div>  </div></div><script>document.addEventListener(\"DOMContentLoaded\", function() {  $(\"#updates\").on(\"hidden.bs.modal\", function () {    var html = $( \"#updates_body\" ).html();    $( \"#updates_body\" ).empty();    $( \"#updates_body\" ).append(html);  })});</script>"
+          "modalWindow": "<div class=\"modal fade\" id=\"updates\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"updatesLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog modal-lg modal-dialog-centered\" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title\" id=\"updatesLabel\">Updates</h5>  <a href=\"#\" class=\"no-anim close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body\" id=\"updates_body\">Great news, our first guide is up, YAY!!</div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-dismiss=\"modal\">Close</a></div><div class=\"mbr-section-btn\"><a href=\"https://simplemodding.tk/page1.html\" class=\"no-anim btn btn-primary display-4\" target=_new>View It Here!!</a></div></div>    </div>  </div></div><script>document.addEventListener(\"DOMContentLoaded\", function() {  $(\"#updates\").on(\"hidden.bs.modal\", function () {    var html = $( \"#updates_body\" ).html();    $( \"#updates_body\" ).empty();    $( \"#updates_body\" ).append(html);  })});</script>"
         },
         {
           "alias": false,
